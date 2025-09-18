@@ -1,0 +1,36 @@
+body {
+    background-color: #f7f7f7;
+    color: #222;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: darkblue;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#alert {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
