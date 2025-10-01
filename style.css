@@ -1,41 +1,44 @@
-/* Page background and text */
+/* Global page styling */
 body {
-    background-color: #f7f7f7; /* light gray */
-    color: #222;              /* dark gray text */
     font-family: Arial, sans-serif;
+    background: url("images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #222;
     margin: 0;
     padding: 0;
 }
 
-/* Headings */
-h1, h2 {
-    color: darkblue; /* dark blue */
+/* Header */
+header {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    text-align: center;
 }
 
-/* Paragraph text */
-p {
-    font-size: 16px;
-    margin-bottom: 1rem;
-}
-
-/* Links */
-a {
-    color: blue;
+nav a {
+    margin: 0 8px;
     text-decoration: none;
-}
-a:hover {
-    text-decoration: underline; /* underline on hover */
+    color: #0066cc;
 }
 
-/* Highlight class */
-.highlight {
-    background-color: yellow;
-    font-weight: bold;
+/* Main content */
+main {
+    padding: 20px;
+    text-align: center;
 }
 
-/* Alert ID */
-#alert {
-    background-color: red;
-    color: white;
-    padding: 5px;
+img {
+    max-width: 400px;
+    margin: 15px auto;
+    display: block;
+    border: 3px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
 }
