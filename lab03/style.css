@@ -1,0 +1,41 @@
+/* Page background and text */
+body {
+    background-color: #f7f7f7; /* light gray */
+    color: #222;              /* dark gray text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1, h2 {
+    color: darkblue; /* dark blue */
+}
+
+/* Paragraph text */
+p {
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline; /* underline on hover */
+}
+
+/* Highlight class */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Alert ID */
+#alert {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
