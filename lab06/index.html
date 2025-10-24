@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lab 06 – UI/UX Evaluation – Saimon Rawal</title>
+
+<style>
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f5f5f5;
+  color:#222;
+  margin:0;
+}
+header,main,footer{
+  width:90%;
+  max-width:850px;
+  margin:auto;
+  padding:1em;
+}
+header{
+  background:#1c2a3a;
+  color:white;
+  text-align:center;
+  border-bottom:4px solid #3d6db5;
+}
+h1{margin:0.3em 0;}
+h2{color:#3d6db5;margin-top:1.2em;}
+p{margin:0.5em 0;}
+ul{padding-left:1.3em;}
+figure{text-align:center;margin:1em 0;}
+img{max-width:100%;height:auto;border:2px solid #ccc;border-radius:5px;}
+figcaption{font-size:0.9em;color:#555;}
+a{color:#204fa1;}
+footer{
+  text-align:center;
+  font-size:0.9em;
+  color:#555;
+  border-top:2px solid #ccc;
+  margin-top:2em;
+  padding-top:0.5em;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>UI/UX Website Evaluation</h1>
+  <p>Lab 06 – CSIT121 | By: Saimon Rawal</p>
+</header>
+
+<main>
+
+  <h2>Website Chosen</h2>
+  <p><strong>URL:</strong> <a href="https://www.nps.gov" target="_blank">https://www.nps.gov</a></p>
+  <p><strong>Name:</strong> National Park Service (U.S. Department of the Interior)</p>
+
+  <figure>
+    <img src="images/website.png" alt="Screenshot of the National Park Service homepage showing parks and navigation.">
+    <figcaption>Screenshot I captured from Chrome browser.</figcaption>
+  </figure>
+
+  <h2>Target Audience</h2>
+  <p>
+    The website is made for people who want information about U.S. national parks, passes,
+    maps, and travel tips. It mainly serves visitors, students, and families interested in
+    outdoor exploration and park education.
+  </p>
+
+  <h2>Site Organization</h2>
+  <p>
+    The site uses a <strong>hierarchical structure</strong>. The home page connects to major sections
+    such as “Find a Park,” “Explore America's Story,” and “Get Involved.” Each section branches into
+    smaller pages with specific information. A consistent menu and search bar make navigation clear.
+  </p>
+
+  <h2>CRAP Design Principles</h2>
+  <ul>
+    <li><strong>Contrast –</strong> Dark text on a light background is easy to read.</li>
+    <li><strong>Repetition –</strong> The same navigation bar and footer appear across all pages.</li>
+  </ul>
+
+  <h2>Accessibility Audit</h2>
+  <p>
+    I ran an accessibility audit for <a href="https://www.nps.gov" target="_blank">nps.gov</a>.
+    The total accessibility score was <strong>71%</strong>, which means the site is <strong>Not Compliant</strong>
+    under the current <strong>WCAG 2.2</strong> guidelines. The report listed <strong>5 critical issues</strong>,
+    <strong>43 passed audits</strong>, and <strong>3 manual checks required</strong>.
+  </p>
+  <p>
+    The main problems were missing landmark roles for two sections and three images without
+    proper alternate text. However, all interaction and visual tests passed successfully.
+    The audit was based on <strong>WCAG 2.2</strong>, <strong>ADA</strong>, and <strong>Section 508</strong> standards.
+    Overall, the site is mostly accessible but could be improved for screen-reader users.
+  </p>
+
+  <h2>Effectiveness</h2>
+  <p>
+    The website is effective because visitors can easily find information like park hours,
+    alerts, and maps. The navigation labels and headings are clear, and the layout helps
+    users reach the right content without confusion.
+  </p>
+
+  <h2>Efficiency</h2>
+  <p>
+    The site is efficient since users can reach any park page in just a few clicks.
+    The pages load quickly, and the layout works smoothly on both computers and phones.
+  </p>
+
+  <h2>Engagement</h2>
+  <p>
+    The design feels professional and calm. Large scenic photos and short descriptions
+    make it interesting while matching the nature theme. The color palette fits a
+    government environmental site.
+  </p>
+
+  <h2>Recommendation</h2>
+  <p>
+    I recommend fixing the missing alt text and adding clear landmark roles for better
+    accessibility. Adding a small “Plan Your Visit” section with quick links for hours,
+    passes, and fees would also help users finish tasks faster.
+  </p>
+
+</main>
+
+<footer>
+  <p>Created by Saimon Rawal – Lab 06 UI/UX Evaluation</p>
+  <p>Accessibility results are from my own 71% audit of NPS.gov (WCAG 2.2).</p>
+</footer>
+
+</body>
+</html>
