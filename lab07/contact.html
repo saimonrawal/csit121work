@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- 
+AI Usage Citation:
+I used ChatGPT only to get help understanding how to organize my table, form, and CSS.
+All of the writing, images, and final code were done by me. I made changes myself, tested everything, and learned from it.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drink Feedback Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Drink Feedback Form</h1>
+  <nav>
+    <a href="tierlist.html">Home</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Share Your Thoughts</h2>
+  <p>Let me know what you think about my drink rankings!  
+  Your answers will help me see what others like too.</p>
+
+  <form action="#" method="post">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div>
+      <label for="favorite">Favorite Drink:</label>
+      <select id="favorite" name="favorite">
+        <option value="">--Select one--</option>
+        <option value="milktea">Milk Tea</option>
+        <option value="coffee">Cold Coffee</option>
+        <option value="mango">Mango Juice</option>
+        <option value="green">Green Tea</option>
+        <option value="soda">Soda</option>
+      </select>
+    </div>
+
+    <fieldset>
+      <legend>Do you agree with my ranking?</legend>
+      <input type="radio" id="yes" name="agree" value="yes">
+      <label for="yes">Yes</label>
+      <input type="radio" id="no" name="agree" value="no">
+      <label for="no">No</label>
+    </fieldset>
+
+    <div>
+      <label>What kind of drinks do you like?</label><br>
+      <input type="checkbox" id="hot" name="type" value="hot">
+      <label for="hot">Hot</label>
+      <input type="checkbox" id="cold" name="type" value="cold">
+      <label for="cold">Cold</label>
+      <input type="checkbox" id="sweet" name="type" value="sweet">
+      <label for="sweet">Sweet</label>
+    </div>
+
+    <div>
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
+    </div>
+
+    <div>
+      <button type="submit">Submit</button>
+      <button type="reset">Clear</button>
+    </div>
+  </form>
+</main>
+
+<footer>
+  <p>&copy; 2025 Saimon Rawal</p>
+</footer>
+
+</body>
+</html>
