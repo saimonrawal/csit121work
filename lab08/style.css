@@ -1,0 +1,90 @@
+/* Global page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url("images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 500px;
+    margin: 15px auto;
+    display: block;
+    border: 3px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    background: rgba(219, 32, 32, 0.9);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+/* customized my color */
+.topnav {
+    background-color:#FF9013;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(55, 26, 186);
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size:18px;
+}
+.topnav a:hover{
+    background-color: #e61616;
+    color:rgb(250, 144, 5)
+}
+.topnav a.active{
+    background-color:green;
+    color:#C66E52;
+}
+.topnav .icon{
+    display: none;
+}
+
+@media screen and (max-width:500px){
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon{
+        float: right;
+        display: block;
+    }
+}
+@media screen and (max-width:500px){
+    .topnav.responsive{position: relative;}
+    .topnav.responsive a.icon{
+        position:absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
